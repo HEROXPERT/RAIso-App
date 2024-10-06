@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Customer.master.cs" Inherits="RAIso_BARUUU.Views.Customer.Customer" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:Button ID="homeBtn" runat="server" Text="Home" OnClick="homeBtn_Click" />
+            <asp:Button ID="cartBtn" runat="server" Text="Cart" OnClick="cartBtn_Click" />
+            <asp:Button ID="transactionBtn" runat="server" Text="Transaction" OnClick="transactionBtn_Click" />
+            <asp:Button ID="updateprofileBtn" runat="server" Text="Update Profile" OnClick="updateprofileBtn_Click" />
+            <asp:Button ID="logoutBtn" runat="server" Text="Logout" OnClick="logoutBtn_Click" />
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
